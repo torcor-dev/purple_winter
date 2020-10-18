@@ -1,0 +1,82 @@
+# BASE UI
+ColorColumn:                '- altbackground'
+Conceal:                    'dark-blue-gray'
+Cursor:                     '. . r'
+CursorIM:                   '@Cursor'
+CursorColumn:               '@Cursor'
+CursorLine:                 '@Cursor'
+Directory:                  'cyber-grape - b'
+DiffAdd:                    'ocean-green altbackground'
+DiffChange:                 'mustard plump-purple'
+DiffDelete:                 'foreground magenta-haze'
+DiffText:                   'vivid-sky-blue . iu'
+ErrorMsg:                   'persian-orange cyber-grape'
+VertSplit:                  'cyber-grape altbackground'
+Folded:                     'dark-blue-gray altbackground'
+FoldColumn:                 '@Folded'
+SignColumn:                 'vivid-sky-blue -'
+IncSearch:                  'ochre rebecca-purple' #highlight?
+LineNr:                     'ochre -'
+CursorLineNr:               'nadeshiko-pink'
+MatchParen:                 'persian-orange rebecca-purple'
+ModeMsg:                    'rebecca-purple altbackground b'
+MoreMsg:                    '@ModeMsg'
+NonText:                    'dark-blue-gray'
+Normal:                     'foreground'
+PMenu:                      'plump-purple background'
+PMenuSel:                   'ochre altbackground' #coc menu?
+PmenuSbar:                  'magenta-haze altbackground'
+PmenuThumb:                 'persian-orange'
+Question:                   'foreground'
+Search:                     'altbackground moss-green'
+SpecialKey:                 'magenta-haze'
+SpellBad:                   'magenta-haze'
+SpellLocal:                 '@Normal'
+SpellCap:                   '@Normal'
+SpellRare:                  '@Normal'
+StatusLine:                 'altbackground rebecca-purple'
+StatusLineNC:               'rebecca-purple altbackground'
+TabLine:                    'blue-bell altbackground'
+TabLineFill:                '. altbackground'
+TabLineSel:                 'altbackground plump-purple'
+Title:                      'dark-blue-gray'
+Visual:                     'rebecca-purple persian-orange r'
+VisualNOS:                  '@Visual'
+WarningMsg:                 'mustard magenta-haze'
+WildMenu:                   'ochre altbackground'
+# BASE SYNTAX
+Comment:                    'dark-blue-gray . i'
+Constant:                   'magenta-haze . b'
+String:                     'rebecca-purple' # Constant
+Character:                  'plump-purple' # Constant
+Boolean:                    'ochre' # Constant
+Number:                     'foreground' # Constant
+Float:                      '@Number' # Constant
+Identifier:                 'cyber-grape'
+Function:                   '@Identifier' # Identifier
+Statement:                  'ochre'
+Conditional:                '@Statement' #      Statement
+Repeat:                     '@Statement' # Statement
+Label:                      '@Statement' # Statement
+Operator:                   '@Statement' # Statement
+Keyword:                    '@Statement' #      Statement
+Exception:                  '@Statement' # Statement
+PreProc:                    'cyber-grape'
+Include:                    '@PreProc' # PreProc
+Define:                     '@PreProc' #        PreProc
+Macro:                      '@PreProc' # PreProc
+PreCondit:                  '@PreProc' # PreProc
+Type:                       'nadeshiko-pink'
+StorageClass:               '@Type' # Type
+Structure:                  '@Type' # Type
+Typedef:                    '@Type' # Type
+Special:                    'mustard'
+SpecialChar:                '@Special' # Special
+Tag:                        '@Special' # Special
+Delimiter:                  '@Special' # Special
+SpecialComment:             '@Special' # Special
+Debug:                      '@Special' # Special
+Underlined:                 '. . u'
+Ignore:                     'lavender-web'
+Error:                      'magenta-haze altbackground'
+Todo:                       'persian-orange dark-blue-gray'

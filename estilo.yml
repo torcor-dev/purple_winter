@@ -1,0 +1,14 @@
+name: 'purple_winter'
+version: '1.0.0'
+license: 'MIT'
+author: 'Tormod Fossum'
+url: ''
+description: ''
+colorschemes:
+  - name: purple_winter
+    background: 'dark'
+    palette: purple_winter
+airline:
+  - name: 'purple_winter'
+    palette: 'purple_winter'
+    style: 'purple_winter'

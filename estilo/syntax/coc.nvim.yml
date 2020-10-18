@@ -1,0 +1,4 @@
+CocErrorSign: 'magenta-haze -'
+CocWarningSign: 'mustard -'
+CocHintSign: 'ocean-green -'
+CocInfoSign: 'vivid-sky-blue -'
