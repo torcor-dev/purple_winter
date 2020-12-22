@@ -1,0 +1,4 @@
+TSConstructor: '@Type'
+TSFuncBuiltin: '@Special'
+TSVariableBuiltin: '@SpellBad'
+TSParameter: '@Normal'

@@ -4,13 +4,13 @@
 " URL:
 " Author: Tormod Fossum
 " License: MIT
-" Last Change: 2020/10/18 20:57
+" Last Change: 2020/10/18 21:23
 " ============================================================
 
 let g:airline#themes#purple_winter#palette = {}
 
-let s:normal1 = [ "#111014", "#5c4788", 233, 60 ]
-let s:normal2 = [ "#100c18", "#695988", 233, 60 ]
+let s:normal1 = [ "#111014", "#712c94", 233, 54 ]
+let s:normal2 = [ "#100c18", "#6040a1", 233, 61 ]
 let s:normal3 = [ "#5c4788", "#111014", 60, 233 ]
 let g:airline#themes#purple_winter#palette.normal = airline#themes#generate_color_map(s:normal1, s:normal2, s:normal3)
 
@@ -25,7 +25,7 @@ let s:replace3 = [ "#5c4788", "#111014", 60, 233 ]
 let g:airline#themes#purple_winter#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
 let s:visual1 = [ "#111014", "#44c8e7", 233, 80 ]
-let s:visual2 = [ "#100c18", "#695988", 233, 60 ]
+let s:visual2 = [ "#100c18", "#4e9bb0", 233, 67 ]
 let s:visual3 = [ "#5c4788", "#111014", 60, 233 ]
 let g:airline#themes#purple_winter#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 

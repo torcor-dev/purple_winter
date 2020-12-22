@@ -3,8 +3,9 @@ ColorColumn:                '- altbackground'
 Conceal:                    'dark-blue-gray'
 Cursor:                     '. . r'
 CursorIM:                   '@Cursor'
-CursorColumn:               '@Cursor'
-CursorLine:                 '@Cursor'
+CursorColumn:               'foreground cyber-grape'
+TermCursor:                 '@CursorColumn'
+CursorLine:                 '@CursorColumn'
 Directory:                  'cyber-grape - b'
 DiffAdd:                    'ocean-green altbackground'
 DiffChange:                 'mustard plump-purple'
@@ -73,7 +74,7 @@ Typedef:                    '@Type' # Type
 Special:                    'mustard'
 SpecialChar:                '@Special' # Special
 Tag:                        '@Special' # Special
-Delimiter:                  '@Special' # Special
+Delimiter:                  '@Normal' # Special
 SpecialComment:             '@Special' # Special
 Debug:                      '@Special' # Special
 Underlined:                 '. . u'

@@ -4,7 +4,7 @@
 " URL: 
 " Author: Tormod Fossum
 " License: MIT
-" Last Change: 2020/10/18 20:57
+" Last Change: 2020/10/18 21:23
 " ===============================================================
 
 set background=dark
@@ -31,8 +31,9 @@ hi ColorColumn guifg=NONE ctermfg=NONE guibg=#100c18 ctermbg=233 gui=NONE cterm=
 hi Conceal guifg=#695988 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor gui=reverse cterm=reverse
 hi link CursorIM Cursor
-hi link CursorColumn Cursor
-hi link CursorLine Cursor
+hi CursorColumn guifg=#d9d5e3 ctermfg=253 guibg=#5c4788 ctermbg=60 gui=NONE cterm=NONE
+hi link TermCursor CursorColumn
+hi link CursorLine CursorColumn
 hi Directory guifg=#5c4788 ctermfg=60 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi DiffAdd guifg=#63c2a1 ctermfg=73 guibg=#100c18 ctermbg=233 gui=NONE cterm=NONE
 hi DiffChange guifg=#ffdc41 ctermfg=221 guibg=#6040a1 ctermbg=61 gui=NONE cterm=NONE
