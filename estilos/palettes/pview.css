@@ -1,0 +1,30 @@
+a{
+  background:     #111014;
+  foreground:     #d9d5e3;
+  altbackground:  #100c18;
+  fg2:            #ff54f1;
+  fg3:            #fac3ee;
+}
+
+Purples {
+  rebecca-purple: #712c94;
+  plump-purple:   #6040a1;
+  cyber-grape:    #5c4788;
+  dark-blue-gray: #695988;
+  blue-bell:      #b5adc8;
+  lavender-web:   #e4e1eb;
+}
+
+contrasts {
+  magenta-haze:   #a0406f;
+  nadeshiko-pink: #efafce;
+  ochre:          #EE7716;
+  persian-orange: #d58a4d;
+  mustard:        #ffdc41;
+  key-lime:       #dbe38f;
+  moss-green:     #8c9e48;
+  ocean-green:    #63c2a1;
+  blue-green:     #4e9bb0;
+  vivid-sky-blue: #44c8e7;
+
+}
