@@ -23,7 +23,7 @@ MatchParen:                 'persian-orange rebecca-purple'
 ModeMsg:                    'rebecca-purple altbackground b'
 MoreMsg:                    '@ModeMsg'
 NonText:                    'dark-blue-gray'
-Normal:                     'foreground'
+Normal:                     'fg4'
 PMenu:                      'plump-purple background'
 PMenuSel:                   'ochre altbackground' #coc menu?
 PmenuSbar:                  'magenta-haze altbackground'
@@ -48,18 +48,18 @@ WildMenu:                   'ochre altbackground'
 # BASE SYNTAX
 Comment:                    'dark-blue-gray . i'
 Constant:                   'magenta-haze . b'
-String:                     'rebecca-purple' # Constant
+String:                     'yellow3' # Constant
 Character:                  'plump-purple' # Constant
 Boolean:                    'ochre' # Constant
-Number:                     'foreground' # Constant
+Number:                     '@Normal' # Constant
 Float:                      '@Number' # Constant
-Identifier:                 'cyber-grape'
-Function:                   '@Identifier' # Identifier
-Statement:                  'ochre'
-Conditional:                '@Statement' #      Statement
+Identifier:                 'magenta-haze'
+Function:                   'fg3 . b' # Identifier
+Statement:                  'rebecca-purple'
+Conditional:                'ochre' #      Statement
 Repeat:                     '@Statement' # Statement
 Label:                      '@Statement' # Statement
-Operator:                   '@Statement' # Statement
+Operator:                   'ochre' # Statement
 Keyword:                    '@Statement' #      Statement
 Exception:                  '@Statement' # Statement
 PreProc:                    'cyber-grape'
@@ -67,7 +67,7 @@ Include:                    '@PreProc' # PreProc
 Define:                     '@PreProc' #        PreProc
 Macro:                      '@PreProc' # PreProc
 PreCondit:                  '@PreProc' # PreProc
-Type:                       'nadeshiko-pink'
+Type:                       'ochre . b'
 StorageClass:               '@Type' # Type
 Structure:                  '@Type' # Type
 Typedef:                    '@Type' # Type
